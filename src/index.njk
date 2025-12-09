@@ -4,102 +4,134 @@ title: Home
 description: Delta Deli - A beloved deli and restaurant serving Oneida, NY with fresh sandwiches, delicious meals, and homemade favorites.
 ---
 
+{# Hero Section #}
 <section class="bg-gradient-to-r from-dark-900 to-dark-800 text-white">
-    <div class="container mx-auto px-4 py-20 text-center">
-        <h1 class="text-5xl md:text-6xl font-bold mb-6">Welcome to <span class="text-primary-400">Delta Deli</span></h1>
-        <p class="text-xl md:text-2xl mb-8 text-gray-300">Oneida, NY's favorite neighborhood deli and restaurant</p>
-        <div class="flex flex-col sm:flex-row gap-4 justify-center mb-4">
-            <a href="/menu/" class="bg-primary-500 hover:bg-primary-600 text-white px-8 py-3 rounded-lg font-semibold transition-colors">View Menu</a>
-            <a href="/contact/" class="bg-dark-700 hover:bg-dark-600 text-white px-8 py-3 rounded-lg font-semibold transition-colors border border-primary-500">Contact Us</a>
-        </div>
-        <div class="flex justify-center">
-            <a href="https://www.doordash.com/store/32899723?utm_source=mx_share&aw=q5tLO79E5CQQVoKJ" target="_blank" rel="noopener noreferrer" class="bg-red-600 hover:bg-red-700 hover:scale-105 hover:shadow-lg text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300 inline-flex items-center gap-2">
-                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                    <path d="M23.071 8.409a6.09 6.09 0 0 0-5.396-3.228H.584A.589.589 0 0 0 .17 6.184L3.894 9.93a1.752 1.752 0 0 0 1.242.516h12.049a1.554 1.554 0 1 1 .031 3.108H8.91a.589.589 0 0 0-.415 1.003l3.725 3.747a1.752 1.752 0 0 0 1.242.516h3.757c4.887 0 8.584-5.225 5.852-10.413z"/>
-                </svg>
-                Order on DoorDash
-            </a>
-        </div>
+  <div class="container mx-auto px-4 py-20 text-center">
+    <h1 class="text-5xl md:text-6xl font-bold mb-6">Welcome to <span class="text-primary-400">Delta Deli</span></h1>
+    <p class="text-xl md:text-2xl mb-8 text-gray-300">Oneida, NY's favorite neighborhood deli and restaurant</p>
+
+    <div class="flex flex-col sm:flex-row gap-4 justify-center mb-4">
+      <a href="/menu/" class="bg-primary-500 hover:bg-primary-600 text-white px-8 py-3 rounded-lg font-semibold transition-colors">View Menu</a>
+      <a href="/contact/" class="bg-dark-700 hover:bg-dark-600 text-white px-8 py-3 rounded-lg font-semibold transition-colors border border-primary-500">Contact Us</a>
     </div>
+
+    <div class="flex justify-center">
+      <a href="https://www.doordash.com/store/32899723?utm_source=mx_share&aw=q5tLO79E5CQQVoKJ" target="_blank" rel="noopener noreferrer" class="bg-red-600 hover:bg-red-700 hover:scale-105 hover:shadow-lg text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300 inline-flex items-center gap-2">
+        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M23.071 8.409a6.09 6.09 0 0 0-5.396-3.228H.584A.589.589 0 0 0 .17 6.184L3.894 9.93a1.752 1.752 0 0 0 1.242.516h12.049a1.554 1.554 0 1 1 .031 3.108H8.91a.589.589 0 0 0-.415 1.003l3.725 3.747a1.752 1.752 0 0 0 1.242.516h3.757c4.887 0 8.584-5.225 5.852-10.413z"/>
+        </svg>
+        Order on DoorDash
+      </a>
+    </div>
+  </div>
 </section>
 
+{# Feature Cards #}
 <section class="section bg-dark-800">
-    <div class="container-custom">
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div class="text-center bg-dark-900 p-8 rounded-lg border border-dark-700">
-                <div class="bg-primary-500/20 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <svg class="w-8 h-8 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                    </svg>
-                </div>
-                <h3 class="text-xl font-bold mb-2 text-primary-400">Fresh Daily</h3>
-                <p class="text-gray-400">Everything made fresh every day with quality ingredients</p>
-            </div>
-            <div class="text-center bg-dark-900 p-8 rounded-lg border border-dark-700">
-                <div class="bg-primary-500/20 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <svg class="w-8 h-8 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
-                    </svg>
-                </div>
-                <h3 class="text-xl font-bold mb-2 text-primary-400">Family Owned</h3>
-                <p class="text-gray-400">A local business serving the Oneida community with pride</p>
-            </div>
-            <div class="text-center bg-dark-900 p-8 rounded-lg border border-dark-700">
-                <div class="bg-primary-500/20 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <svg class="w-8 h-8 text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                    </svg>
-                </div>
-                <h3 class="text-xl font-bold mb-2 text-primary-400">Quality Service</h3>
-                <p class="text-gray-400">Friendly service and attention to every customer</p>
-            </div>
+  <div class="container-custom">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+      <div class="text-center bg-dark-900 rounded-lg border border-dark-700 overflow-hidden">
+        <img src="/images/sub-sandwich.jpg" alt="Fresh sub sandwich" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="text-xl font-bold mb-3 text-primary-400">Fresh Daily</h3>
+          <p class="text-gray-400">Made fresh daily with quality ingredients and care</p>
         </div>
+      </div>
+
+      <div class="text-center bg-dark-900 rounded-lg border border-dark-700 overflow-hidden">
+        <img src="/images/family-owned.jpg" alt="Family owned business" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="text-xl font-bold mb-3 text-primary-400">Family Owned</h3>
+          <p class="text-gray-400">A local business serving the Oneida community with pride</p>
+        </div>
+      </div>
+
+      <div class="text-center bg-dark-900 rounded-lg border border-dark-700 overflow-hidden">
+        <img src="/images/quality-service.jpg" alt="Quality service" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h3 class="text-xl font-bold mb-3 text-primary-400">Quality Service</h3>
+          <p class="text-gray-400">Friendly service and attention to every customer</p>
+        </div>
+      </div>
+
     </div>
+  </div>
 </section>
 
+{# What We Offer #}
 <section class="section bg-dark-900">
-    <div class="container-custom">
-        <h2 class="text-4xl font-bold text-center mb-12 text-white">What We Offer</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div class="bg-dark-800 p-8 rounded-lg shadow-lg border border-dark-700">
-                <h3 class="text-2xl font-bold mb-4 text-primary-400">Deli Favorites</h3>
-                <p class="text-gray-300 mb-4">Custom sandwiches, subs, and wraps made to order with premium meats and fresh vegetables.</p>
-                <ul class="list-disc list-inside text-gray-400 space-y-2">
-                    <li>Fresh cold cuts and cheeses</li>
-                    <li>Hot sandwiches and melts</li>
-                    <li>Build your own creation</li>
-                </ul>
-            </div>
-            <div class="bg-dark-800 p-8 rounded-lg shadow-lg border border-dark-700">
-                <h3 class="text-2xl font-bold mb-4 text-primary-400">Hot Meals</h3>
-                <p class="text-gray-300 mb-4">Daily specials and comfort food favorites that taste like home.</p>
-                <ul class="list-disc list-inside text-gray-400 space-y-2">
-                    <li>Daily hot meal specials</li>
-                    <li>Homemade soups</li>
-                    <li>Fresh salads</li>
-                </ul>
-            </div>
-        </div>
+  <div class="container-custom">
+    <h2 class="text-4xl font-bold text-center mb-12 text-white">What We Offer</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+      <div class="bg-dark-800 p-8 rounded-lg shadow-lg border border-dark-700">
+        <h3 class="text-2xl font-bold mb-4 text-primary-400">Deli Favorites</h3>
+        <p class="text-gray-300 mb-4">Custom sandwiches, subs, and wraps made to order with premium meats and fresh vegetables.</p>
+        <ul class="list-disc list-inside text-gray-400 space-y-2">
+          <li>Fresh cold cuts and cheeses</li>
+          <li>Hot sandwiches and melts</li>
+          <li>Build your own creation</li>
+        </ul>
+      </div>
+
+      <div class="bg-dark-800 p-8 rounded-lg shadow-lg border border-dark-700">
+        <h3 class="text-2xl font-bold mb-4 text-primary-400">Hot Meals</h3>
+        <p class="text-gray-300 mb-4">Daily specials and comfort food favorites that taste like home.</p>
+        <ul class="list-disc list-inside text-gray-400 space-y-2">
+          <li>Daily hot meal specials</li>
+          <li>Homemade soups</li>
+          <li>Fresh salads</li>
+        </ul>
+      </div>
+
     </div>
+  </div>
 </section>
 
+{# Visit Us #}
 <section class="section bg-gradient-to-r from-primary-700 to-primary-600 text-white">
-    <div class="container-custom text-center">
-        <h2 class="text-4xl font-bold mb-6">Visit Us Today</h2>
-        <p class="text-xl mb-8">Stop by Delta Deli in Oneida, NY for a delicious meal</p>
-        <div class="bg-dark-900/50 backdrop-blur-sm rounded-lg p-8 max-w-2xl mx-auto border border-primary-500/30">
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-left">
-                <div>
-                    <h3 class="font-bold text-lg mb-2 text-primary-300">Hours</h3>
-                    <p class="text-gray-200">Monday - Sunday: 9am - 10pm</p>
-                </div>
-                <div>
-                    <h3 class="font-bold text-lg mb-2 text-primary-300">Contact</h3>
-                    <p class="text-gray-200">120 Madison St</p>
-                    <p class="text-gray-200">Oneida, NY 13421</p>
-                    <p class="text-gray-200">301-802-4154</p>
-                </div>
+  <div class="container-custom text-center">
+    <h2 class="text-4xl font-bold mb-6">Visit Us Today</h2>
+    <p class="text-xl mb-8">Stop by Delta Deli in Oneida, NY for a delicious meal</p>
+
+    <div class="bg-dark-900/50 backdrop-blur-sm rounded-lg p-8 max-w-4xl mx-auto border border-primary-500/30">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-left">
+
+        <div>
+          <h3 class="font-bold text-lg mb-2 text-primary-300">Hours</h3>
+          <p class="text-gray-200">Monday - Sunday: 9am - 10pm</p>
+          <div class="mt-6">
+            <div class="w-full h-48 mt-4 rounded-lg overflow-hidden border border-primary-500/30">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2923.5!2d-75.6517!3d43.0789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d94f0f0f0f0f0f%3A0x0!2s120%20Madison%20St%2C%20Oneida%2C%20NY%2013421!5e0!3m2!1sen!2sus!4v1234567890"
+                width="100%"
+                height="100%"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                class="w-full h-full">
+              </iframe>
             </div>
+          </div>
         </div>
+
+        <div>
+          <h3 class="font-bold text-lg mb-2 text-primary-300">Contact</h3>
+          <p class="text-gray-200">120 Madison St</p>
+          <p class="text-gray-200">Oneida, NY 13421</p>
+          <p class="text-gray-200">
+            <a href="tel:301-802-4154" class="hover:text-primary-400 transition-colors font-semibold inline-flex items-center gap-1">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+              </svg>
+              301-802-4154
+            </a>
+          </p>
+        </div>
+
+      </div>
     </div>
+  </div>
 </section>
