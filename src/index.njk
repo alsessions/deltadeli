@@ -10,13 +10,9 @@ description: Delta Deli - A beloved deli and restaurant serving Oneida, NY with 
     <h1 class="text-5xl md:text-6xl font-bold mb-6">Welcome to <span class="text-primary-400">Delta Deli</span></h1>
     <p class="text-xl md:text-2xl mb-8 text-gray-300">Oneida, NY's favorite neighborhood deli and restaurant</p>
 
-    <div class="flex flex-col sm:flex-row gap-4 justify-center mb-4">
+    <div class="flex flex-col lg:flex-row gap-4 justify-center">
       <a href="/menu/" class="bg-primary-500 hover:bg-primary-600 text-white px-8 py-3 rounded-lg font-semibold transition-colors">View Menu</a>
-      <a href="/contact/" class="bg-dark-700 hover:bg-dark-600 text-white px-8 py-3 rounded-lg font-semibold transition-colors border border-primary-500">Contact Us</a>
-    </div>
-
-    <div class="flex justify-center">
-      <a href="https://www.doordash.com/store/32899723?utm_source=mx_share&aw=q5tLO79E5CQQVoKJ" target="_blank" rel="noopener noreferrer" class="bg-red-600 hover:bg-red-700 hover:scale-105 hover:shadow-lg text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300 inline-flex items-center gap-2">
+      <a href="https://www.doordash.com/store/32899723?utm_source=mx_share&aw=q5tLO79E5CQQVoKJ" target="_blank" rel="noopener noreferrer" class="bg-red-600 hover:bg-red-700 hover:scale-105 hover:shadow-lg text-white px-8 py-3 rounded-lg font-semibold transition-all duration-300 flex items-center justify-center gap-2">
         <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
           <path d="M23.071 8.409a6.09 6.09 0 0 0-5.396-3.228H.584A.589.589 0 0 0 .17 6.184L3.894 9.93a1.752 1.752 0 0 0 1.242.516h12.049a1.554 1.554 0 1 1 .031 3.108H8.91a.589.589 0 0 0-.415 1.003l3.725 3.747a1.752 1.752 0 0 0 1.242.516h3.757c4.887 0 8.584-5.225 5.852-10.413z"/>
         </svg>
@@ -27,31 +23,31 @@ description: Delta Deli - A beloved deli and restaurant serving Oneida, NY with 
 </section>
 
 {# Feature Cards #}
-<section class="section bg-dark-800">
+<section class="py-16 px-4 bg-dark-800">
   <div class="container-custom">
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
 
-      <div class="text-center bg-dark-900 rounded-lg border border-dark-700 overflow-hidden">
-        <img src="/images/sub-sandwich.jpg" alt="Fresh sub sandwich" class="w-full h-48 object-cover">
+      <div class="text-center bg-dark-900 rounded-lg border border-dark-700/50 shadow-lg shadow-black/30 overflow-hidden hover:border-primary-500/20 transition-colors">
+        <img src="/images/sub.png" alt="Fresh sub sandwich" class="w-full h-48 object-cover">
         <div class="p-6">
-          <h3 class="text-xl font-bold mb-3 text-primary-400">Fresh Daily</h3>
-          <p class="text-gray-400">Made fresh daily with quality ingredients and care</p>
+          <h3 class="text-xl font-bold mb-3 text-primary-400">DELI SUBS & SANDWICHES</h3>
+          <p class="text-gray-400">Build your own subs and sandwiches. All made to order with fresh ingredients and care.</p>
         </div>
       </div>
 
-      <div class="text-center bg-dark-900 rounded-lg border border-dark-700 overflow-hidden">
-        <img src="/images/family-owned.jpg" alt="Family owned business" class="w-full h-48 object-cover">
+      <div class="text-center bg-dark-900 rounded-lg border border-dark-700/50 shadow-lg shadow-black/30 overflow-hidden hover:border-primary-500/20 transition-colors">
+        <img src="/images/sub-sandwich.jpg" alt="Grilled sandwich" class="w-full h-48 object-cover">
         <div class="p-6">
-          <h3 class="text-xl font-bold mb-3 text-primary-400">Family Owned</h3>
-          <p class="text-gray-400">A local business serving the Oneida community with pride</p>
+          <h3 class="text-xl font-bold mb-3 text-primary-400">FROM THE GRILL</h3>
+          <p class="text-gray-400">Philly Cheesesteak, Chopped Cheese, Burgers, fries and more. Daily lunch specials.</p>
         </div>
       </div>
 
-      <div class="text-center bg-dark-900 rounded-lg border border-dark-700 overflow-hidden">
-        <img src="/images/quality-service.jpg" alt="Quality service" class="w-full h-48 object-cover">
+      <div class="text-center bg-dark-900 rounded-lg border border-dark-700/50 shadow-lg shadow-black/30 overflow-hidden hover:border-primary-500/20 transition-colors">
+        <img src="/images/wrap.jpg" alt="Quality service" class="w-full h-48 object-cover">
         <div class="p-6">
-          <h3 class="text-xl font-bold mb-3 text-primary-400">Quality Service</h3>
-          <p class="text-gray-400">Friendly service and attention to every customer</p>
+          <h3 class="text-xl font-bold mb-3 text-primary-400">HEALTHY OPTIONS</h3>
+          <p class="text-gray-400">Smoothies, salds and wraps made with the freshest of ingredients daily.</p>
         </div>
       </div>
 
@@ -59,62 +55,20 @@ description: Delta Deli - A beloved deli and restaurant serving Oneida, NY with 
   </div>
 </section>
 
-{# What We Offer #}
-<section class="section bg-dark-900">
-  <div class="container-custom">
-    <h2 class="text-4xl font-bold text-center mb-12 text-white">What We Offer</h2>
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 
-      <div class="bg-dark-800 p-8 rounded-lg shadow-lg border border-dark-700">
-        <h3 class="text-2xl font-bold mb-4 text-primary-400">Deli Favorites</h3>
-        <p class="text-gray-300 mb-4">Custom sandwiches, subs, and wraps made to order with premium meats and fresh vegetables.</p>
-        <ul class="list-disc list-inside text-gray-400 space-y-2">
-          <li>Fresh cold cuts and cheeses</li>
-          <li>Hot sandwiches and melts</li>
-          <li>Build your own creation</li>
-        </ul>
-      </div>
-
-      <div class="bg-dark-800 p-8 rounded-lg shadow-lg border border-dark-700">
-        <h3 class="text-2xl font-bold mb-4 text-primary-400">Hot Meals</h3>
-        <p class="text-gray-300 mb-4">Daily specials and comfort food favorites that taste like home.</p>
-        <ul class="list-disc list-inside text-gray-400 space-y-2">
-          <li>Daily hot meal specials</li>
-          <li>Homemade soups</li>
-          <li>Fresh salads</li>
-        </ul>
-      </div>
-
-    </div>
-  </div>
-</section>
 
 {# Visit Us #}
-<section class="section bg-gradient-to-r from-primary-700 to-primary-600 text-white">
-  <div class="container-custom text-center">
+<section class="py-16 px-4 bg-dark-800 text-white">
+  <div class="container-custom text-center pt-8">
     <h2 class="text-4xl font-bold mb-6">Visit Us Today</h2>
-    <p class="text-xl mb-8">Stop by Delta Deli in Oneida, NY for a delicious meal</p>
+    <p class="text-xl mb-16">Stop by Delta Deli in Oneida, NY for a delicious meal</p>
 
-    <div class="bg-dark-900/50 backdrop-blur-sm rounded-lg p-8 max-w-4xl mx-auto border border-primary-500/30">
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-left">
+    <div class="bg-dark-900/50 backdrop-blur-sm rounded-lg p-6 max-w-4xl mx-auto border border-dark-700/40 shadow-xl shadow-black/40">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-left mb-6">
 
         <div>
           <h3 class="font-bold text-lg mb-2 text-primary-300">Hours</h3>
           <p class="text-gray-200">Monday - Sunday: 9am - 10pm</p>
-          <div class="mt-6">
-            <div class="w-full h-48 mt-4 rounded-lg overflow-hidden border border-primary-500/30">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2923.5!2d-75.6517!3d43.0789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d94f0f0f0f0f0f%3A0x0!2s120%20Madison%20St%2C%20Oneida%2C%20NY%2013421!5e0!3m2!1sen!2sus!4v1234567890"
-                width="100%"
-                height="100%"
-                style="border:0;"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-                class="w-full h-full">
-              </iframe>
-            </div>
-          </div>
         </div>
 
         <div>
@@ -131,6 +85,19 @@ description: Delta Deli - A beloved deli and restaurant serving Oneida, NY with 
           </p>
         </div>
 
+      </div>
+
+      <div class="w-full h-64 rounded-lg overflow-hidden border border-primary-500/30">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2923.5!2d-75.6517!3d43.0789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d94f0f0f0f0f0f%3A0x0!2s120%20Madison%20St%2C%20Oneida%2C%20NY%2013421!5e0!3m2!1sen!2sus!4v1234567890"
+          width="100%"
+          height="100%"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="w-full h-full">
+        </iframe>
       </div>
     </div>
   </div>
